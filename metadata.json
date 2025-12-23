@@ -1,0 +1,7 @@
+{
+  "name": "Industry Insight Navigator",
+  "description": "A professional-grade company research tool that uses Gemini and Google Search Grounding to discover, verify, and analyze industry leaders by region.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
