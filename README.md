@@ -1,20 +1,20 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+## InsightNavigator（B2B 营销网站 + 在线 Demo）
 
-# Run and deploy your AI Studio app
+这是一个 **B2B 营销落地页**（产品介绍 / 解决方案 / 定价 / FAQ / 联系表单），并在页面中内置了一个可交互的 **在线体验 Demo**：输入行业/地区/对标公司即可生成研究报告，支持来源链接与 Excel/PDF 导出。
 
-This contains everything you need to run your app locally.
+### 主要能力
 
-View your app in AI Studio: https://ai.studio/apps/drive/1n8slpm6gw5fvv5zsnUmjorv0i6rrwPkY
+- **行业报告合成**：自动综合多份公开研究与白皮书，形成可读的行业综述
+- **目标客户/竞品发现**：按地区与规模筛选，默认按营收/规模优先级排序
+- **对标相似度评分**：提供“业务相似度评分”并解释理由
+- **可追溯与导出**：引用来源链接、复制原文、Excel 清单与 PDF 报告
 
-## Run Locally
+### 本地运行
 
-**Prerequisites:**  Node.js
+**前置条件**：Node.js
 
-
-1. Install dependencies:
+1. 安装依赖：
    `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
+2. 配置环境变量：在 `.env.local` 中设置 `GEMINI_API_KEY`（用于在线 Demo 调研能力）
+3. 启动：
    `npm run dev`
